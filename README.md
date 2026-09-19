@@ -6,6 +6,8 @@
 
 **Un Snake de poche aux couleurs de la jungle, où chaque bouchée vaut un bitcoin.**
 
+### [▶️ Jouer en ligne](https://lara21000.github.io/BTC_Snake/)
+
 [![HTML](https://img.shields.io/badge/HTML5-100%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)](snake-bananes.html)
 ![Sans dépendance](https://img.shields.io/badge/dépendances-aucune-b9f45d?style=for-the-badge&labelColor=17320f)
 ![Responsive](https://img.shields.io/badge/interface-responsive-ffd54a?style=for-the-badge&labelColor=17320f)
@@ -31,6 +33,10 @@ Tout tient dans un unique fichier HTML : aucun framework, aucune installation et
 - 📦 Zéro dépendance : HTML, CSS et JavaScript natifs uniquement.
 
 ## Jouer
+
+Le moyen le plus rapide est de **[lancer le jeu sur GitHub Pages](https://lara21000.github.io/BTC_Snake/)**.
+
+Pour jouer localement :
 
 1. Télécharge ou clone le dépôt.
 2. Ouvre [`snake-bananes.html`](snake-bananes.html) dans un navigateur moderne.
@@ -59,10 +65,12 @@ Chaque bitcoin collecté ajoute un point et allonge le serpent. La partie se ter
 
 ```text
 BTC_Snake/
+├── .github/workflows/pages.yml
 ├── assets/
 │   ├── gameplay.svg
 │   └── readme-hero.svg
 ├── AGENTS.md
+├── index.html
 ├── README.md
 └── snake-bananes.html
 ```
